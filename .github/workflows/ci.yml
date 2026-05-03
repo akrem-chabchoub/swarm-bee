@@ -33,6 +33,9 @@ jobs:
       - name: Run tests
         run: go test ./... -v
 
+      - name: Run lint
+        run: golangci-lint run
+
       - name: Run vet
         run: go vet ./...
 
