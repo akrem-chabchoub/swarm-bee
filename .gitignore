@@ -1,5 +1,5 @@
 .env
-FULL_BEE_BUILD_PLAN.md
+plan
 /bin/
 *.test
 *.prof
